@@ -32,7 +32,7 @@ contract BSCValidatorSet is IBSCValidatorSet, System, IParamSubscriber, IApplica
   uint256 public constant EXPIRE_TIME_SECOND_GAP = 1000;
   uint256 public constant MAX_NUM_OF_VALIDATORS = 41;
 
-  bytes public constant INIT_VALIDATORSET_BYTES = hex"f84580f842f840949fb29aac15b9a4b7f17c3385939b007540f4d791949fb29aac15b9a4b7f17c3385939b007540f4d791949fb29aac15b9a4b7f17c3385939b007540f4d79164";
+  bytes public constant INIT_VALIDATORSET_BYTES = hex"f9010c80f90108f8409435cd261bf4f528964cc1b2370e5d7cee91430cf59435cd261bf4f528964cc1b2370e5d7cee91430cf59435cd261bf4f528964cc1b2370e5d7cee91430cf564f84094c5c3b9a47b455406f8a1d5d9209eacbe4bd4ed6294c5c3b9a47b455406f8a1d5d9209eacbe4bd4ed6294c5c3b9a47b455406f8a1d5d9209eacbe4bd4ed6264f8409489d4e9ce82072cec3bbab9ea6bfa9b399c511c509489d4e9ce82072cec3bbab9ea6bfa9b399c511c509489d4e9ce82072cec3bbab9ea6bfa9b399c511c5064f8409429ee4813be7ed6f344cde37fe6fecd10f2bafcdc9429ee4813be7ed6f344cde37fe6fecd10f2bafcdc9429ee4813be7ed6f344cde37fe6fecd10f2bafcdc64";
 
   uint32 public constant ERROR_UNKNOWN_PACKAGE_TYPE = 101;
   uint32 public constant ERROR_FAIL_CHECK_VALIDATORS = 102;
@@ -54,7 +54,7 @@ contract BSCValidatorSet is IBSCValidatorSet, System, IParamSubscriber, IApplica
 
   uint256 public constant BURN_RATIO_SCALE = 10000;
   address public constant BURN_ADDRESS = 0x000000000000000000000000000000000000dEaD;
-  uint256 public constant INIT_BURN_RATIO = 0;
+  uint256 public constant INIT_BURN_RATIO = 1000;
   uint256 public burnRatio;
   bool public burnRatioInitialized;
 

@@ -4,10 +4,28 @@ const RLP = require('rlp');
 // Configure
 const validators = [
   {
-    consensusAddr: "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
-    feeAddr: "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
-    bscFeeAddr: "0x9fB29AAc15b9A4B7F17c3385939b007540f4d791",
+    consensusAddr: "0x35cd261bF4F528964CC1B2370E5d7CEE91430cf5",
+    feeAddr: "0x35cd261bF4F528964CC1B2370E5d7CEE91430cf5",
+    bscFeeAddr: "0x35cd261bF4F528964CC1B2370E5d7CEE91430cf5",
     votingPower: 0x0000000000000064
+  },
+  {
+   consensusAddr: "0xC5c3B9A47B455406f8a1D5D9209eacBe4bD4ed62",
+   feeAddr: "0xC5c3B9A47B455406f8a1D5D9209eacBe4bD4ed62",
+   bscFeeAddr: "0xC5c3B9A47B455406f8a1D5D9209eacBe4bD4ed62",
+   votingPower: 0x0000000000000064
+  },
+  {
+   consensusAddr: "0x89D4E9cE82072CEc3bBAb9eA6bFa9b399c511c50",
+   feeAddr: "0x89D4E9cE82072CEc3bBAb9eA6bFa9b399c511c50",
+   bscFeeAddr: "0x89D4E9cE82072CEc3bBAb9eA6bFa9b399c511c50",
+   votingPower: 0x0000000000000064
+  },
+  {
+   consensusAddr: "0x29ee4813BE7ed6F344cDe37Fe6FECd10f2BaFcdC",
+   feeAddr: "0x29ee4813BE7ed6F344cDe37Fe6FECd10f2BaFcdC",
+   bscFeeAddr: "0x29ee4813BE7ed6F344cDe37Fe6FECd10f2BaFcdC",
+   votingPower: 0x0000000000000064
   }
 ];
 
